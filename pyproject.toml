@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "tnd-fastapi-token-auth"
 version = "0.1.0"
-description = "Token autentication system using TACACS as the authentication source"
+description = "Token authentication system using TACACS as the authentication source"
 authors = ["Ryan Bradshaw <ryan@thenetworkdev.com>"]
 
 [tool.poetry.dependencies]
