@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "tnd-fastapi-token-auth"
+version = "0.1.0"
+description = "Token autentication system using TACACS as the authentication source"
+authors = ["Ryan Bradshaw <ryan@thenetworkdev.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+fastapi = "^0.68.0"
+uvicorn = {extras = ["standard"], version = "^0.15.0"}
+tacacs_plus = "^2.6"
+PyJWT = "^2.1.0"
+
+[tool.poetry.dev-dependencies]
+black = "flake8"
+flake8 = "^3.9.2"
+isort = "^5.9.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+target-version = ['py39']

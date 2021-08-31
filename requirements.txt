@@ -1,0 +1,4 @@
+fastapi
+uvicorn[standard]
+tacacs_plus
+pyjwt
